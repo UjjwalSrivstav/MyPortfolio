@@ -928,6 +928,13 @@ h3.my-profession
       display: none ;
   }
 }
+@media (max-height:510px)
+    {
+        .aside .logo
+        {
+            display:none;
+        }
+}
 @media (max-width:px)
 {    
     .contact .contact-form .col-6,
